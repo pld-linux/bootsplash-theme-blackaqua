@@ -11,7 +11,7 @@ License:	GPL v2
 Group:		Themes
 Source0:	%{name}-%{version}.tar.gz
 # Source0-md5:	94a42ab7e2fb881961001b5669705e9a
-URL:		http://cvs.pld-linux.org/cgi-bin/cvsweb/pld-artwork/bootsplash/%{theme}/
+URL:		http://cvs.pld-linux.org/cgi-bin/cvsweb/pld-artwork/bootsplash/blackaqua/
 Requires:	bootsplash
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -20,7 +20,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Blackaqua PLD theme for bootsplash.
 
 %description -l pl
-Motyw PLD Blackaqua do bootsplash.
+Motyw PLD Blackaqua do bootsplasha.
 
 %prep
 %setup -q -c
@@ -28,7 +28,7 @@ Motyw PLD Blackaqua do bootsplash.
 %install
 rm -rf $RPM_BUILD_ROOT
 THEME_DIR=$RPM_BUILD_ROOT%{_sysconfdir}/bootsplash/themes/%{theme}
-install -d $THEME_DIR{,/config,/images}
+install -d $THEME_DIR/{config,images}
 install %{theme}/config/*.cfg $THEME_DIR/config
 install %{theme}/images/*.jpg $THEME_DIR/images
 
