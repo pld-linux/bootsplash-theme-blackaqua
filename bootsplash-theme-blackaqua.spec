@@ -2,7 +2,7 @@
 %define	theme	blackaqua
 
 Summary:	Bootsplash - PLD blackaqua theme
-Summary(pl.UTF-8):   Bootsplash - Motyw PLD blackaqua 
+Summary(pl.UTF-8):	Bootsplash - Motyw PLD blackaqua 
 Name:		bootsplash-theme-%{theme}
 Version:	1.0
 Release:	1
