@@ -12,6 +12,7 @@ Group:		Themes
 Source0:	%{name}-%{version}.tar.gz
 # Source0-md5:	94a42ab7e2fb881961001b5669705e9a
 URL:		http://cvs.pld-linux.org/cgi-bin/cvsweb/pld-artwork/bootsplash/blackaqua/
+Provides:	bootsplash-theme
 Requires:	bootsplash
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
